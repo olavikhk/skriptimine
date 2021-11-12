@@ -4,6 +4,7 @@ GITi kasutamine
 	1) vaheta kasutajaks <su root>
 	2) <apt install git>
 	3) välju root kasutajast <exit>
+exit
 
 2. Konfigureeri oma kasutaja alt
 <git config --global user.name "Olavi Kavald"
@@ -18,4 +19,20 @@ GITi kasutamine
 
 5 Tee lokaalne git repo (repositoorium) loodud kaustas jälgimiseks
 <git init
-exit
+
+1.-5 /neid tegevusi tehakse üks kord/
+------------------
+6.-8 /need punktid tehakse korduvalt - iga muudatuse tekkimisel, sj võib committida korraga kõiki neid faile korraga, mis on selle muudatusega seotud
+
+
+6. Kui failis on tehtud muudatused - lisame faili jälgimisele
+<git add failinimi   [ failinimi2 failinimiN]  - kandilised sulud tähendab, et ei ole kohustuslik
+
+7. Eelmise tegevuse kontrollimiseks võib vaadata faili jälgimisstaatust
+<git status
+(kui failinimi on roheline, siis ta on võetud jälgimisele)
+
+8. Koosta jälgitavale failile commit (muudatuste kirjeldus)
+<git commit -m "muudatuste sõnaline kirjeldus"
+
+
