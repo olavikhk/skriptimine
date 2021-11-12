@@ -1,0 +1,12 @@
+#! /bin/bash
+# kuupäeva ja kella väljastamine
+
+date +"Today is %A, %B &d, %Y"
+echo
+date +"Kell on %H:%M"
+echo
+echo -n "Kalender "
+echo "2021 .a jooksev kuu"
+cal
+
+
