@@ -1,0 +1,21 @@
+exit
+GITi kasutamine
+1. Kui git on paigaldamata, siis paigalda
+	1) vaheta kasutajaks <su root>
+	2) <apt install git>
+	3) välju root kasutajast <exit>
+
+2. Konfigureeri oma kasutaja alt
+<git config --global user.name "Olavi Kavald"
+<git config --global user.email olavi.kavald@khk.ee
+<git config --global core.editor nano
+
+3. Loo kaust, mille failid vajavad jälgimist
+<mkdir skriptimine
+
+4. Sisene loodud kataloogi
+<cd skriptimine
+
+5 Tee lokaalne git repo (repositoorium) loodud kaustas jälgimiseks
+<git init
+exit
