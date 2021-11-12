@@ -36,3 +36,21 @@ exit
 <git commit -m "muudatuste sõnaline kirjeldus"
 
 
+---- 9.-10 teeme ainult üks kord, et tekitada repo ja ühendus ---
+
+9. loo repo githubis - git@github.com:kasutaja/reponimi.git
+
+10. loo remote ühendus github repoga
+<git remote add ühendusenimi git@github.com:kasutaja/reponimi.git
+
+kontrollida ühendust
+<git remote -v
+
+--- 11. remote - teeme korduvalt iga commit sooritamise järel ---
+
+11. Lükka lokaalsed muudatused githubi
+<git push -uf ühendusenimi  master
+
+
+
+
